@@ -1,0 +1,80 @@
+// bower:scss
+// endbower
+
+body {
+  background-color: #efeae1}
+
+#logo {
+  padding-left: 50px; }
+
+#left-main-section {
+  height: 100vh; }
+
+#right-main-section {
+  height: 100vh; }
+
+#left-section-text {
+  height: 100%;
+  position: relative;
+  left: -1000px; }
+
+.red-line {
+  height: 8%;
+  margin-bottom: 16%;
+  background-color: #f44336;
+  position: relative;
+  left: 1000px; }
+
+ .container {
+  width: 100%;
+ }
+
+ #candidate-cards {
+  width: 80%;
+  margin: 0 auto;
+ }
+
+.img-sm {
+  max-width: 400px;
+}
+
+.card.small .card-image {
+  height: 180px;
+}
+
+.card {
+  padding: 5px;
+}
+
+.card .card-content {
+  padding: 5px;
+}
+
+#cards-row {
+  margin-top: 20px;
+}
+
+.ng-enter {
+  transition: 0.75s;
+  opacity: 0;
+}
+
+.ng-enter-stagger {
+  transition-delay: 0.1s;
+}
+
+.ng-enter-active {
+  opacity: 1;
+}
+
+.Republican {
+  background-color: rgba(244,67,54,.2);
+}
+
+.Democrat {
+  background-color: rgba(41,121,255,.2);
+}
+
+.parallax-container {
+    height: 500px;
+}

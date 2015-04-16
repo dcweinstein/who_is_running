@@ -1,0 +1,17 @@
+<div id='candidate-cards'>
+	<div class='row' id='cards-row'>
+		<div ng-repeat='candidate in candidates | filter:{party:"republican"}' class='col m4 s6 card small img-sm'>
+			<div class='card-image waves-effect waves-block waves-light'>
+				<img class='activator' ng-src='{{ candidate.img }}'>
+			</div>
+			<div class='card-content'>
+				<span class='card-title activator grey-text text-darken-4'>{{ candidate.name }} <i class='mdi-navigation-more-vert right'></i></span>
+				<p><a ng-href='#/candidate_info' onclick='pullInNav()'>{{ candidate.party }} - {{ candidate.position }}</a></p>
+			</div>
+			<div class='card-reveal'>
+				<span class='card-title grey-text text-darken-4'>{{ candidate.name }}<i class='mdi-navigation-close right'></i></span>
+				<p>Bio</p>
+			</div>
+		</div>
+	</div>	
+</div>
