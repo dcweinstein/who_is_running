@@ -16,15 +16,18 @@ body {
 /* line 13, ../../app/styles/main.scss */
 #right-main-section {
   height: 100vh;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
-/* line 16, ../../app/styles/main.scss */
+/* line 20, ../../app/styles/main.scss */
 .left-section-text {
   position: relative;
   left: -1000px;
 }
 
-/* line 20, ../../app/styles/main.scss */
+/* line 25, ../../app/styles/main.scss */
 .red-line {
   height: 8%;
   margin-bottom: 16%;
@@ -33,69 +36,78 @@ body {
   left: 1000px;
 }
 
-/* line 27, ../../app/styles/main.scss */
+/* line 32, ../../app/styles/main.scss */
 .container {
   width: 100%;
 }
 
-/* line 31, ../../app/styles/main.scss */
+/* line 36, ../../app/styles/main.scss */
 #candidate-cards {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 36, ../../app/styles/main.scss */
+/* line 41, ../../app/styles/main.scss */
 .img-sm {
   max-width: 400px;
 }
 
-/* line 40, ../../app/styles/main.scss */
+/* line 45, ../../app/styles/main.scss */
 .card.small .card-image {
   height: 180px;
 }
 
-/* line 44, ../../app/styles/main.scss */
+/* line 49, ../../app/styles/main.scss */
 .card {
   padding: 5px;
 }
 
-/* line 48, ../../app/styles/main.scss */
+/* line 53, ../../app/styles/main.scss */
 .card .card-content {
   padding: 5px;
 }
 
-/* line 52, ../../app/styles/main.scss */
+/* line 57, ../../app/styles/main.scss */
 #cards-row {
   margin-top: 20px;
 }
 
-/* line 56, ../../app/styles/main.scss */
+/* line 61, ../../app/styles/main.scss */
 .ng-enter {
   transition: 0.75s;
   opacity: 0;
 }
 
-/* line 61, ../../app/styles/main.scss */
+/* line 66, ../../app/styles/main.scss */
 .ng-enter-stagger {
   transition-delay: 0.1s;
 }
 
-/* line 65, ../../app/styles/main.scss */
+/* line 70, ../../app/styles/main.scss */
 .ng-enter-active {
   opacity: 1;
 }
 
-/* line 69, ../../app/styles/main.scss */
+/* line 74, ../../app/styles/main.scss */
 .Republican {
   background-color: rgba(244, 67, 54, 0.2);
 }
 
-/* line 73, ../../app/styles/main.scss */
+/* line 78, ../../app/styles/main.scss */
 .Democrat {
   background-color: rgba(41, 121, 255, 0.2);
 }
 
-/* line 77, ../../app/styles/main.scss */
+/* line 82, ../../app/styles/main.scss */
 .parallax-container {
   height: 500px;
+}
+
+/* line 86, ../../app/styles/main.scss */
+.right-img {
+  height: 100%;
+  max-width: 41.66667%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
