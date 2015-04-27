@@ -35,7 +35,7 @@ angular
         templateUrl: 'views/candidates.html',
         controller: 'CandidatesWithPartyCtrl'
       })
-      .when('/candidate_info', {
+      .when('/candidate_info/:id', {
         templateUrl: 'views/candidate_info.html',
         controller: 'CandidateInfoCtrl'
       })

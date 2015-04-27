@@ -1,7 +1,7 @@
 <div id='candidate-cards'>
 	<div class='row' id='cards-row'>
 		<div ng-repeat='candidate in candidates | filter:{party:paramParty.party} | orderBy:"-declaredDate"' class='col m4 s6 card small img-sm  {{ candidate.party }}'>
-			<a ng-href='#/candidate_info' onclick='pullInNav()'>
+			<a ng-href='#/candidate_info/{{ candidate._id }}' onclick='pullInNav()'>
 				<div class='card-image waves-effect waves-block waves-light'>
 					<img class='activator' ng-src='{{ candidate.img }}'>
 				</div>
